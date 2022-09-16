@@ -1,4 +1,6 @@
-const items = [
+import { ItemFormData } from "./types";
+
+const items: ItemFormData[] = [
   { id: 1, name: "Yogurt", category: "Dairy" },
   { id: 2, name: "Pomegranate", category: "Produce" },
   { id: 3, name: "Lettuce", category: "Produce" },
