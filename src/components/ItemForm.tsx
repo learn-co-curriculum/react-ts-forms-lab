@@ -1,7 +1,12 @@
-import React from "react";
 import { v4 as uuid } from "uuid";
 
-function ItemForm(props) {
+interface Props {
+  id: number;
+  name: string;
+  category: string;
+}
+
+function ItemForm({ id, name, category }: Props) {
   return (
     <form className="NewItem">
       <label>

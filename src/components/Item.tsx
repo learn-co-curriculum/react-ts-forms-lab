@@ -1,6 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-function Item({ name, category }) {
+interface Props {
+  name: string;
+  category: string;
+}
+
+function Item({ name, category }: Props) {
   const [isInCart, setIsInCart] = useState(false);
 
   function handleAddToCartClick() {
