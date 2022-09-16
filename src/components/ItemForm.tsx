@@ -1,12 +1,6 @@
 import { v4 as uuid } from "uuid";
 
-interface Props {
-  id: number;
-  name: string;
-  category: string;
-}
-
-function ItemForm({ id, name, category }: Props) {
+function ItemForm() {
   return (
     <form className="NewItem">
       <label>

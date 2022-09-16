@@ -21,6 +21,9 @@ the deliverables! Completing these deliverables will also require understanding
 of all the previous topics from this section, including initializing state,
 passing data and callback functions as props, and working with events.
 
+To get started, fork and clone this lab. Once cloned, run
+`npm install && npm start` to get the project running.
+
 ## Deliverables
 
 ### Filter
@@ -93,3 +96,4 @@ and added to our list of items.
 ## Resources
 
 - [React Forms](https://facebook.github.io/react/docs/forms.html)
+- [uuid Package](https://www.npmjs.com/package/uuid)
