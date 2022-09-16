@@ -22,7 +22,9 @@ of all the previous topics from this section, including initializing state,
 passing data and callback functions as props, and working with events.
 
 To get started, fork and clone this lab. Once cloned, run
-`npm install && npm start` to get the project running.
+`npm install && npm start` to get the project running. Don't forget to run
+`npm test` once you've completed the deliverables to ensure you've passed them
+all correctly.
 
 ## Deliverables
 
