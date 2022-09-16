@@ -26,6 +26,16 @@ To get started, fork and clone this lab. Once cloned, run
 
 ## Deliverables
 
+As you complete this lab, don't forget to add or edit types where needed. If you
+find yourself using a custom type/interface multiple times throughout several
+files, consider creating a separate `types.ts` file in the `data` folder and
+define your repeated types there. You can then import any types defined and
+exported from that file wherever it is necessary. If you've forgotten how to do
+so, look back at the **React Forms Submit** lesson.
+
+> **Note**: This is not necessary to pass tests or the lab, just something to
+> consider if you prefer this type of workflow!
+
 ### Filter
 
 In the filter component, there is a new input field for searching our list.
