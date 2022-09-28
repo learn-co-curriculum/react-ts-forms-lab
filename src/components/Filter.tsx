@@ -1,6 +1,8 @@
-import React from "react";
+interface Props {
+  onCategoryChange(event: React.ChangeEvent<HTMLSelectElement>): void;
+}
 
-function Filter({ onCategoryChange }) {
+function Filter({ onCategoryChange }: Props) {
   return (
     <div className="Filter">
       <input type="text" name="search" placeholder="Search..." />

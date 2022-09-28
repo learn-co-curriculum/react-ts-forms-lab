@@ -21,7 +21,27 @@ the deliverables! Completing these deliverables will also require understanding
 of all the previous topics from this section, including initializing state,
 passing data and callback functions as props, and working with events.
 
+To get started, fork and clone this lab. Once cloned, run
+`npm install && npm start` to get the project running. Don't forget to run
+`npm test` once you've completed the deliverables to ensure you've passed them
+all correctly.
+
+> **Note**: The tests for the two components you'll be working on are
+> opinionated, meaning it expects certain variables to be used in certain
+> situations. Read the instructions carefully as we tell you what variables you
+> will need.
+
 ## Deliverables
+
+As you complete this lab, don't forget to add or edit types where needed. If you
+find yourself using a custom type/interface multiple times throughout several
+files, consider creating a separate `types.ts` file in the `data` folder and
+define your repeated types there. You can then import any types defined and
+exported from that file wherever it is necessary. If you've forgotten how to do
+so, look back at the **React Forms Submit** lesson.
+
+> **Note**: This is not necessary to pass tests or the lab, just something to
+> consider if you prefer this type of workflow!
 
 ### Filter
 
@@ -35,7 +55,9 @@ that only items with names that match the text are included.
 - Once you've determined which component should hold the state for this feature,
   set up your initial state, and connect that state to the input field.
   Remember, we're trying to make this input a _controlled_ input — so the
-  input's value should always be in sync with state.
+  input's value should always be in sync with state. To get the test passing,
+  you'll need to connect this state to the Form component with a prop called
+  `search`.
 
 - After you've connected the input to state, you'll also need to find a way to
   _set_ state when the input _changes_. To get the test passing, you'll need to
@@ -93,3 +115,4 @@ and added to our list of items.
 ## Resources
 
 - [React Forms](https://facebook.github.io/react/docs/forms.html)
+- [uuid Package](https://www.npmjs.com/package/uuid)
